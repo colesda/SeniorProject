@@ -19,6 +19,9 @@
 		CA6C57541A4CA5390059C8B9 /* TakeMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6C57531A4CA5390059C8B9 /* TakeMeasurement.swift */; };
 		CACB51641A604DCE00027668 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACB51631A604DCE00027668 /* Camera.swift */; };
 		CACB516A1A60531500027668 /* CameraRoll.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACB51691A60531500027668 /* CameraRoll.swift */; };
+		CAD4703E1A6C42B200C01B1C /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD4703D1A6C42B200C01B1C /* ImageView.swift */; };
+		CAD470401A6C56DB00C01B1C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD4703F1A6C56DB00C01B1C /* Models.swift */; };
+		CAD470441A6C84CB00C01B1C /* ModelTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD470431A6C84CB00C01B1C /* ModelTable.swift */; };
 		CAED1ADF1A65AF6000CCC7B1 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED1ADE1A65AF6000CCC7B1 /* Results.swift */; };
 		CAED1AE11A65B06600CCC7B1 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED1AE01A65B06600CCC7B1 /* History.swift */; };
 /* End PBXBuildFile section */
@@ -34,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F2A4E151A65078600D5C25D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		CA4C66D81A65B66300B6B786 /* SamplePicture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SamplePicture.swift; path = ../SamplePicture.swift; sourceTree = "<group>"; };
 		CA4C66DA1A65B9AE00B6B786 /* SampleOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleOutput.swift; sourceTree = "<group>"; };
 		CA6C57291A4B8AF40059C8B9 /* project_26_SP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = project_26_SP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +53,9 @@
 		CA6C57531A4CA5390059C8B9 /* TakeMeasurement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakeMeasurement.swift; sourceTree = "<group>"; };
 		CACB51631A604DCE00027668 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Camera.swift; path = ../Camera.swift; sourceTree = "<group>"; };
 		CACB51691A60531500027668 /* CameraRoll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraRoll.swift; sourceTree = "<group>"; };
+		CAD4703D1A6C42B200C01B1C /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		CAD4703F1A6C56DB00C01B1C /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		CAD470431A6C84CB00C01B1C /* ModelTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTable.swift; sourceTree = "<group>"; };
 		CAED1ADE1A65AF6000CCC7B1 /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		CAED1AE01A65B06600CCC7B1 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,7 +81,6 @@
 		CA6C57201A4B8AF40059C8B9 = {
 			isa = PBXGroup;
 			children = (
-				0F2A4E151A65078600D5C25D /* .gitignore */,
 				CA6C572B1A4B8AF40059C8B9 /* project_26_SP */,
 				CA6C57441A4B8AF40059C8B9 /* project_26_SPTests */,
 				CA6C572A1A4B8AF40059C8B9 /* Products */,
@@ -95,20 +99,23 @@
 		CA6C572B1A4B8AF40059C8B9 /* project_26_SP */ = {
 			isa = PBXGroup;
 			children = (
-				CA4C66D81A65B66300B6B786 /* SamplePicture.swift */,
-				CACB51691A60531500027668 /* CameraRoll.swift */,
-				CACB51631A604DCE00027668 /* Camera.swift */,
 				CA6C57351A4B8AF40059C8B9 /* Main.storyboard */,
+				CACB51631A604DCE00027668 /* Camera.swift */,
+				CACB51691A60531500027668 /* CameraRoll.swift */,
+				CAED1AE01A65B06600CCC7B1 /* History.swift */,
+				CAD4703D1A6C42B200C01B1C /* ImageView.swift */,
+				CAD4703F1A6C56DB00C01B1C /* Models.swift */,
+				CAD470431A6C84CB00C01B1C /* ModelTable.swift */,
+				CAED1ADE1A65AF6000CCC7B1 /* Results.swift */,
+				CA4C66D81A65B66300B6B786 /* SamplePicture.swift */,
+				CA4C66DA1A65B9AE00B6B786 /* SampleOutput.swift */,
+				CA6C57331A4B8AF40059C8B9 /* ViewController.swift */,
 				CA6C57531A4CA5390059C8B9 /* TakeMeasurement.swift */,
 				CA6C572E1A4B8AF40059C8B9 /* AppDelegate.swift */,
-				CA6C57331A4B8AF40059C8B9 /* ViewController.swift */,
 				CA6C57381A4B8AF40059C8B9 /* Images.xcassets */,
 				CA6C573A1A4B8AF40059C8B9 /* LaunchScreen.xib */,
 				CA6C57301A4B8AF40059C8B9 /* project_26_SP.xcdatamodeld */,
 				CA6C572C1A4B8AF40059C8B9 /* Supporting Files */,
-				CAED1ADE1A65AF6000CCC7B1 /* Results.swift */,
-				CAED1AE01A65B06600CCC7B1 /* History.swift */,
-				CA4C66DA1A65B9AE00B6B786 /* SampleOutput.swift */,
 			);
 			path = project_26_SP;
 			sourceTree = "<group>";
@@ -241,13 +248,16 @@
 				CA4C66D91A65B66300B6B786 /* SamplePicture.swift in Sources */,
 				CAED1AE11A65B06600CCC7B1 /* History.swift in Sources */,
 				CACB516A1A60531500027668 /* CameraRoll.swift in Sources */,
+				CAD470401A6C56DB00C01B1C /* Models.swift in Sources */,
 				CAED1ADF1A65AF6000CCC7B1 /* Results.swift in Sources */,
+				CAD4703E1A6C42B200C01B1C /* ImageView.swift in Sources */,
 				CA6C57341A4B8AF40059C8B9 /* ViewController.swift in Sources */,
 				CACB51641A604DCE00027668 /* Camera.swift in Sources */,
 				CA4C66DB1A65B9AE00B6B786 /* SampleOutput.swift in Sources */,
 				CA6C57321A4B8AF40059C8B9 /* project_26_SP.xcdatamodeld in Sources */,
 				CA6C572F1A4B8AF40059C8B9 /* AppDelegate.swift in Sources */,
 				CA6C57541A4CA5390059C8B9 /* TakeMeasurement.swift in Sources */,
+				CAD470441A6C84CB00C01B1C /* ModelTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

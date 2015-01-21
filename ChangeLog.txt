@@ -1,3 +1,14 @@
+
+January 13th, 2015
+David 
+-Added Image to sample imagine 
+-Updated Main Menu and Take a Model to 3.5in 
+-Added Apache License to Main Menu and Take a Model 
+-Created Model.swift, holds model info 
+
+
+
+
 January 13th, 2015
 David 
 -Moved verison number to the information view
@@ -11,3 +22,5 @@ David
 
 Notes: 
 I made a couple of minor UI changes and links.  The biggest change was I created Sample Picture and Sample Output for testing the color values of an image.  
+
+
